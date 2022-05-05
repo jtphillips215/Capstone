@@ -1,0 +1,185 @@
+﻿.page-container {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    background-color: midnightblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: yellow;
+    font-size: 2em;
+    font-family: Georgia, serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+nav {
+    float: none;
+    width: auto;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    padding: 1em;
+    font-weight: bold;
+    border-style: none;
+    color: yellow;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: yellow;
+    color: navy;
+}
+    
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrap {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2.5rem;
+    opacity: 95%;
+}
+
+footer {
+    margin-top: .75em;
+    padding: 0;
+    height: 2.5rem;
+    width: 100%;
+    color: yellow;
+    background-color: midnightblue;
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+
+.notes {
+    margin-top: 1.25em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.rTable {
+    display: table;
+    width: 90%;
+    margin: 2em auto;
+}
+
+.rTableRow {
+    display: table-row;
+}
+
+.rTableHeading {
+    display: table-header-group;
+}
+
+.rTableCell {
+    display: table-cell;
+    padding: 3px 10px;
+    border: 1px solid #999999;
+}
+.rTableHead {
+    display: table-cell;
+    padding: 3px 10px;
+    border: 1px solid #999999;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.rTableHeading {
+    display: table-header-group;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.rTableBody {
+    display: table-row-group;
+}
+
+.report {
+    margin-top: 2em;
+}
+
+img {
+    display: block;
+    height:300px;
+    width: 600px;
+    position: relative;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.policy {
+    margin: 3em;
+}
+
+.network {
+    margin: 3em 3em 0 3em;
+    padding-bottom: 0;
+}
+
+.network-bottom {
+    margin: 1em 3em 1em 3em;
+}
+
+ul .network {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        margin: 0;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.2em;
+        width: auto;
+        border-top: 1px solid whitesmoke;
+    }
+
+    nav li {
+        display: block;
+    }
+}
